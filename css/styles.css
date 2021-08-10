@@ -28,8 +28,8 @@ strong {
 img {
     max-height: 34vw; 
     max-width: 34vh;
-    min-height: 11vw;
-    min-width: 11vw;
+    min-height: 3vw;
+    min-width: 3vw;
     border-radius: 50%;
 }
 
