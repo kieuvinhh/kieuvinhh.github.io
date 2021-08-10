@@ -6,7 +6,7 @@ body {
 
 .div_body {
     display: flex;
-    flex: 50%;
+    flex: 30%;
 }
 
 .left_page {
