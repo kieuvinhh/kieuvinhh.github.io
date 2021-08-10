@@ -1,4 +1,5 @@
 body {
+    font-size: 1.1vw;
     font-family: Arial;
     background-color: white;
 }
@@ -10,8 +11,8 @@ body {
 
 .left_page {
     left: 50%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .right_page {
@@ -21,10 +22,14 @@ body {
 }
 
 strong {
-    font-size: 25px;
+    font-size: 1.6vw;
 }
 
 img {
+    max-height: 21vw; 
+    max-width: 21vh;
+    min-height: 10vw;
+    min-width: 10vw;
     border-radius: 50%;
 }
 
@@ -34,54 +39,62 @@ img {
 
 .divided_col {
     background-color: black;
-    border-width: 2px;
+    border-width: .18vw;
     border-color: black;
 }
 .divided_row {
     background-color: black;
-    border-width: 2px;
+    border-width: .15vw;
     border-color: black;
 }
 span {
-    margin-left: 10px;
+    font-size: 1.2vw;
+    margin-left: .5vw;
 }
 a {
-    margin-left: 10px;
+    font-size: 1.2vw;
+    margin-left: .5vw;
     text-decoration: none;
     color: black;
 }
 
 #CS114_ML {
-    padding-left: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-left: 1vw;
+    padding-top: .02vw;
+    padding-bottom: .02vw;
     background-color: rgb(218, 218, 218);
 }
 
 #CS232 {
-    padding-left: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-left: 1vw;
+    padding-top: .02vw;
+    padding-bottom: .02vw;
 }
 
 
 #CS106 {
-    padding-left: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-left: 1vw;
+    padding-top: .02vw;
+    padding-bottom: .02vw;
     background-color: rgb(218, 218, 218);
 }
 
+#CS231 {
+    padding-left: 1vw;
+    padding-top: .02vw;
+    padding-bottom: .02vw;
+}
+
 .personal_name {
-    margin-left: 20px;
+    margin-left: 1.12vw;
 }
 
 .contact{
-    margin-left: 7px;
+    margin-left: 1vw;
 }
 .Skill_personal {
-    margin-left: 7px;
+    margin-left: 1vw;
 }
 .certification{
-    margin-left: 7px;
+    margin-left: 1vw;
 }
